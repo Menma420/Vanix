@@ -3,11 +3,11 @@
 Vānix is a real-time audio room application built with **Vite + React + TypeScript** for the frontend and **Node.js + TypeScript** for the backend. It leverages **Stream API** for seamless audio communication.
 
 ## 🚀 Features
-- 🔹 Create and join audio rooms
-- 🔹 Real-time participant updates
-- 🔹 Permission request handling
-- 🔹 Secure authentication with cookies
-- 🔹 Stream API integration for smooth communication
+🔹 Create and join audio rooms
+🔹 Real-time participant updates
+🔹 Permission request handling
+🔹 Secure authentication with cookies
+🔹 Stream API integration for smooth communication
 
 ## 🛠️ Tech Stack
 ### Frontend
