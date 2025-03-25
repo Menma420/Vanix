@@ -25,8 +25,8 @@ Vānix is a real-time audio room application built with **Vite + React + TypeScr
 ## 📦 Installation & Setup
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-repo/vanix.git
-cd vanix
+git clone https://github.com/Menma420/Vanix.git
+cd Vanix
 ```
 
 ### 2️⃣ Install dependencies
