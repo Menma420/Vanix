@@ -1,9 +1,0 @@
-{
-    "watch": "./src",
-    "ext": "ts",
-    "exec": "ts-node ./src/index.ts",
-    "env": {
-        "STREAM_API_KEY": "8kg95evm8sbv",
-        "STREAM_API_SECRET": "28wyud8q3cep5avyr4j3m26x3m227brdcsncvhdrgyawfzktra2txhbdej5zhv7f"
-    }
-}
