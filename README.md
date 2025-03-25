@@ -51,7 +51,7 @@ STREAM_API_SECRET=your_api_secret
 ### 4️⃣ Run the application
 #### Start the backend
 ```bash
-cd backend
+cd Backend
 npx nodemon
 ```
 #### Start the frontend
