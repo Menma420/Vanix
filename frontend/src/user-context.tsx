@@ -1,6 +1,7 @@
 import { StreamVideoClient, User as StreamUserType } from "@stream-io/video-react-sdk";
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
 import Cookies from "js-cookie";
+import { Call } from "@stream-io/video-react-sdk";
 
 interface User {
     username: string,

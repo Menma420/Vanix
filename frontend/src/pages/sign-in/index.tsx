@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { pokemonImages } from "../../images";
 import Cookies from "universal-cookie";
 import { StreamVideoClient } from "@stream-io/video-react-sdk";
+import { User } from "@stream-io/video-react-sdk";
 import { useUser } from "../../user-context";
 import { useNavigate } from "react-router-dom";
 
