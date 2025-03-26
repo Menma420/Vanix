@@ -2,7 +2,9 @@ import { StreamVideo } from "@stream-io/video-react-sdk"
 import { useUser } from "../../user-context";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import CryptoJS from "crypto-js";
+import * as CryptoJS from "crypto-js";
+import { Call } from "@stream-io/video-react-sdk";
+
 
 interface NewRoom {
     name: string,
@@ -33,7 +35,7 @@ export const MainPage = () => {
     }, [client])
 
     const hashRoomName = (roomName: string): string => {
-        const hash = CryptoJS.SHA256(roomName).toString(CryptoJS.enc.base64);
+        const hash = CryptoJS.SHA256(roomName).toString(CryptoJS.enc.Base64);
         return hash.replace(/[^a-zA-Z0-9_-]/g, "")
     } 
 
