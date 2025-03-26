@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/main" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/room" element={call? <StreamCall call={call}> <Room /> </StreamCall> : <Navigate to="/main"/>} />
       </Routes>

@@ -80,7 +80,7 @@ export const SignIn = () => {
                 expires,
             });
 
-            navigate("/main");
+            navigate("/");
 
         } catch (error) {
             console.error("Sign-in error:", error);
