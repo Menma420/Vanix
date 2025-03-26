@@ -31,7 +31,7 @@ export const SignIn = () => {
         try {
             const { username, name } = data;
 
-            const response = await fetch("http://localhost:3000/auth/createUser", {  // Ensure the correct endpoint
+            const response = await fetch("https://vanix-f5bk.onrender.com/auth/createUser", {  // Ensure the correct endpoint
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
